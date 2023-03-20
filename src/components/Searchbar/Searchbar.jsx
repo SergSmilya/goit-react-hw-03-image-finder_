@@ -1,5 +1,6 @@
 import { Component } from 'react';
 import css from './Searchbar.module.css';
+import { ReactComponent as SearchSVG } from '../../svg/SearchSVG.svg';
 
 export default class Searchbar extends Component {
   state = {
@@ -14,7 +15,8 @@ export default class Searchbar extends Component {
       <header className={css.Searchbar}>
         <form className={css.SearchForm} onSubmit={this.props.onSubmit}>
           <button type="submit" className={css.SearchFormButton}>
-            <span className={css.SearchFormButtonLabel}>Search</span>
+            <span className={css.SearchFormButtonLabel}></span>
+            <SearchSVG width="32" height="32" fill="black" />
           </button>
 
           <input

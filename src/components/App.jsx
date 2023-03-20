@@ -3,6 +3,7 @@ import Searchbar from './Searchbar/Searchbar';
 import Api from '../Api';
 import ImageGallery from './ImageGallery/ImageGallery';
 import Button from './Button/Button';
+import Loader from './Loader/Loader';
 
 const apiSearch = new Api();
 export class App extends Component {
@@ -50,6 +51,7 @@ export class App extends Component {
         <Searchbar onSubmit={this.onSubmit} />
         <ImageGallery items={this.state.items} />
         <Button onLoadMore={this.onLoadMore} />
+        <Loader />
       </div>
     );
   }
