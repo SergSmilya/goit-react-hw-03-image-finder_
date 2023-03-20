@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/goit-react-hw-03-image-finder_Olga/static/css/main.11721be7.css",
-    "main.js": "/goit-react-hw-03-image-finder_Olga/static/js/main.02c93a44.js",
+    "main.css": "/goit-react-hw-03-image-finder_Olga/static/css/main.00fae741.css",
+    "main.js": "/goit-react-hw-03-image-finder_Olga/static/js/main.a8c07566.js",
     "index.html": "/goit-react-hw-03-image-finder_Olga/index.html",
     "static/media/SearchSVG.svg": "/goit-react-hw-03-image-finder_Olga/static/media/SearchSVG.f759057014f2744e967e9b9b7d5ca82e.svg",
-    "main.11721be7.css.map": "/goit-react-hw-03-image-finder_Olga/static/css/main.11721be7.css.map",
-    "main.02c93a44.js.map": "/goit-react-hw-03-image-finder_Olga/static/js/main.02c93a44.js.map"
+    "main.00fae741.css.map": "/goit-react-hw-03-image-finder_Olga/static/css/main.00fae741.css.map",
+    "main.a8c07566.js.map": "/goit-react-hw-03-image-finder_Olga/static/js/main.a8c07566.js.map"
   },
   "entrypoints": [
-    "static/css/main.11721be7.css",
-    "static/js/main.02c93a44.js"
+    "static/css/main.00fae741.css",
+    "static/js/main.a8c07566.js"
   ]
 }
