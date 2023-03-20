@@ -5,7 +5,9 @@ export default function ImageGallery({ items }) {
   return (
     <>
       <ul className={css.ImageGallery}>
-        <ImageGalleryItem items={items} />
+        {items.map(item => (
+          <ImageGalleryItem item={item} key={item.id} />
+        ))}
       </ul>
     </>
   );
